@@ -29,7 +29,7 @@ class Bank:
 switz = Bank(0, 'Gus')
 switz.setname('Gus')
 switz.setmoney(2000)
-print(f'Ваше имя:{switz.getmoney()} \nНа вашем счету:{switz.getmoney()}')
+print(f'Ваше имя:{switz.getname()} \nНа вашем счету:{switz.getmoney()}')
 print(switz.moneyX())
 print(switz._kill())
 print(switz._Bank__jackpot())
